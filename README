@@ -1,3 +1,5 @@
+NOTE: This program only works on Linux. You need to have xdotool installed.
+
 This is a simple opencv program that uses thresholding to track
 an object visible to the webcam and controls the position of the 
 mouse pointer based on the position of the cetroid of the thresholded
