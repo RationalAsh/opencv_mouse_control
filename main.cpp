@@ -198,9 +198,9 @@ int main(int argc, char** argv)
         //
         //Mat kernel = getStructuringElement(MORPH_ELLIPSE, Size(2,2));
         //morphologyEx(thresh_frame, thresh_frame, MORPH_CLOSE, kernel);
-        vector<vector<Point> > contours;
-        findContours(thresh_frame, contours, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
-        drawContours(camera_frame, contours, 2, Scalar(255), CV_FILLED);
+        //vector<vector<Point> > contours;
+        //findContours(thresh_frame, contours, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
+        //drawContours(camera_frame, contours, 2, Scalar(255), CV_FILLED);
         //*/
         Point Centroid; int Area;
         getCentroid(thresh_frame, Centroid, Area);
